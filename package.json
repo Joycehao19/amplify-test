@@ -6,7 +6,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "cy:run": "cypress run",
     "predeploy": "npm version patch",
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "upd": "ncu -u -x sass-lint-auto-fix && yarn && yarn start",
